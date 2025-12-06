@@ -1,0 +1,1 @@
+import{s as t}from"./index-01uuhl3J.js";function a(){return t({url:"/menu/categories",method:"get"})}function s(e){return t({url:"/staff/categories",method:"post",data:e})}function u(e,r){return t({url:`/staff/categories/${e}`,method:"put",data:r})}function n(e){return t({url:`/staff/categories/${e}`,method:"delete"})}export{s as c,n as d,a as g,u};
